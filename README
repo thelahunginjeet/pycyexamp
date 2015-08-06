@@ -10,4 +10,5 @@ requires the user to have cython installed, instead of simply a compiler.
 that allows modification and recompilation (via cython), if so desired.
 
 3. I have set things up to place the extension modules inside the main package;
-I'm not sure if I've done this the best way, but it seems to work.
+I'm not sure if I've done this the best way, but it seems to work.  It also extends
+to mutiple extension modules.
