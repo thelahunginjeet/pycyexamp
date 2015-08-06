@@ -1,0 +1,13 @@
+An example package with both python code and an extension module.  This package
+exists because it took me a day to get it to work and I don't want to forget it.
+If it helps anybody else, more the better.
+
+Notes:
+1. The cythoning is not done during install; this is considered bad form, as it
+requires the user to have cython installed, instead of simply a compiler.
+
+2. It is considered good practice to include both the .c and .pyx file, as
+that allows modification and recompilation (via cython), if so desired.
+
+3. I have set things up to place the extension modules inside the main package;
+I'm not sure if I've done this the best way, but it seems to work.
